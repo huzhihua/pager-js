@@ -1,0 +1,7 @@
+ul.pager{ list-style: none; float: right;}
+ul.pager li{ vertical-align: middle; height: 28px; line-height: 28px; list-style: none; float:left; padding: 0 15px; margin: 0 5px 0 5px; border: 1px solid #e2e2e2;background-color: #fff;font-size: 12px;}
+ul.pager li a{text-decoration: none; display: inline-block; color: #333;}
+ul.pager li a.selected{color:red;}
+ul.pager li a.disabled{color:#ccc;}
+ul.pager li .record-count{font-weight: bold;}
+ul.pager li .input-page-number{height:28px; border:none; width:30px;}

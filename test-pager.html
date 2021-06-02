@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta name="viewport"
+        content="height=720,width=device-width,initial-scale=0.4, minimum-scale=0.1, maximum-scale=2.0, user-scalable=yes">
+    <title>分页控件测试</title>
+    <script type="text/javascript" src="Scripts/Libs/jquery.js"></script>
+    <script type="text/javascript" src="Scripts/Libs/pager.js" ></script>
+    <link  type="text/css" rel="stylesheet" href="Styles/pager.css"/>
+
+</head>
+<tbody>
+
+    <div id="pager-control"></div>
+
+    <script type="text/javascript"> 
+        var pager = Object.create(pager);
+        $(function(){
+            
+            pager.init({
+                pageCount: 20
+            })
+        })
+    </script>
+</tbody>
+</html>
